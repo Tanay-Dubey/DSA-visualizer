@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+#numberOfBars {
+    width: 70%;
+}
+
+.node {
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.edge-first-right{
+    width:1px;
+    height:60px;
+    background-color: black;
+    transform: rotate(15deg);
+}
+
+.edge-first-left{
+    width:1px;
+    height:60px;
+    background-color: black;
+    transform: rotate(-15deg);
+}
+
+.edge-second-right{
+    width:1px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(30deg);
+}
+
+.edge-second-left{
+    width:1px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(-30deg);
+}
+
+.edge-third-right {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    transform: rotate(35deg);
+}
+
+.edge-third-left {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    transform: rotate(-35deg);
+}
+
+.edge-fourth-right {
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.edge-fourth-left {
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+
+.edge-fifth-right {
+    width: 1px;
+    height: 230px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.edge-fifth-left {
+    width: 1px;
+    height: 230px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+
+.space-first{
+    width: 30px;
+}
