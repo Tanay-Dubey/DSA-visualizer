@@ -32,13 +32,15 @@
                     <label for="numberOfBars" class="form-label">
                         <h5>Number Of Bars</h5>
                     </label>
-                    <input type="range" class="form-range controls" value="100" min="20" max="100" step="10" id="numberOfBars" oninput="createArray(value)">
+                    <input type="range" class="form-range controls" value="100" min="20" max="100" step="10"
+                        id="numberOfBars" oninput="createArray(value)">
                 </div>
                 <div>
                     <label for="speedOfSorting" class="form-label">
                         <h5>Speed</h5>
                     </label>
-                    <input type="range" class="form-range controls" value="1" min="1" max="61" step="20" id="speedOfSorting">
+                    <input type="range" class="form-range" value="61" min="1" max="61" step="20"
+                        id="speedOfSorting" oninput="manageSpeed(value)">
                 </div>
             </div>
             <div>
@@ -51,7 +53,7 @@
                 </select>
             </div>
             <div>
-                <select class="duo form-select text-light bg-dark d-none" >
+                <select class="form-select text-light bg-dark d-none">
                     <option value="0" selected>Selection Sort</option>
                     <option value="1">Bubble Sort</option>
                     <option value="2">Insertion Sort</option>
